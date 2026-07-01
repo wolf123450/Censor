@@ -1,6 +1,9 @@
-# Censor - Production-Ready Image Content Moderation App
+# Censor - Image Content Moderation App
 
-A powerful desktop application for intelligent image content moderation using Ollama's Qwen3-VL vision model. Built with Tauri and Vue.js for maximum performance and portability.
+> **Status: Incomplete / Proof of Concept**
+> This project was not brought to a working state. The core limitation is that the vision models tested (Qwen3-VL and others via Ollama) were not capable of reliably returning accurate region coordinates for censorship masking. The UI, project management, and masking pipeline are implemented, but the AI detection results are not usable in practice. Preserved here for reference and as a starting point if model capabilities improve.
+
+A desktop application for intelligent image content moderation using Ollama's Qwen3-VL vision model. Built with Tauri and Vue.js.
 
 ## Features
 
